@@ -238,7 +238,7 @@
 #    include <immintrin.h>
 #  endif
 #  if defined(ZSTD_ARCH_X86_SSE2)
-#    include <emmintrin.h>
+#    include <x86intrin.h>
 #  elif defined(ZSTD_ARCH_ARM_NEON)
 #    include <arm_neon.h>
 #  endif

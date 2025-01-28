@@ -3729,7 +3729,7 @@ XXH_PUBLIC_API XXH64_hash_t XXH64_hashFromCanonical(XXH_NOESCAPE const XXH64_can
 #  elif defined(__AVX2__)
 #    include <immintrin.h>
 #  elif defined(__SSE2__)
-#    include <emmintrin.h>
+#    include <x86intrin.h>
 #  endif
 #endif
 
